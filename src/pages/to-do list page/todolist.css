@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#to-do-list{
+    height: 100vh;
+    width: 100vw;
+}
+
+.selection-div{
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    margin-top: 50px;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+#task-details{
+    margin: 20px 10px 10px 10px;
+    height: 40px;
+    width: 94%;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white ;
+}
+
+#task-details:hover{
+    border: 2px solid #999999;
+    background-color: #999999;
+    font-size: 15px;
+    color: black;
+}
+.delete-btn:hover{
+    border: 2px solid #999999;
+    background-color: #999999;
+    font-size: 12px;
+    color: black;
+}
+
+#task-label{
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+#task-add-btn{
+    height: 30px;
+    width: 90px;
+    margin: 10px;
+    font-size: 12px;
+    padding: 0;
+}
+
+#task-add-btn:hover{
+    border: 2px solid #999999;
+    background-color: #999999;
+    color: black;
+    
+}
+
+.task-item{
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+    display: flex;
+}
+.delete-btn{
+    height: 30px;
+    width: 90px;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+#task-added{
+    width: 83%;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+#task-list{
+    width: 100%;
+}
+.task-added-list{
+    display: flex;
+    width: 100%;
+
+}
